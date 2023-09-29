@@ -35,7 +35,7 @@ class Reptile {
                         data.append(td.text() + "\t");
                     }
                     data.append("\n");
-                    sendMsg(data.toString());
+                    //sendMsg(data.toString());
                 }
             } catch (Exception e) {
                 e.printStackTrace();

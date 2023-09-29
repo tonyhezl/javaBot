@@ -24,7 +24,7 @@ public class BotOne {
             @Override
             public void run() {
                 String url = "https://discord.com/api/v9/channels/984296390173786182/messages";
-                String authorization = "OTEzNjY2NjY1MDI2MzA2MDg4.GrmtBQ.1sXbwGyhwsIBpxsH9JvAO8CZndWa1K7l-4-_ek";
+                String authorization = "OTUxMzQyNTgwNDcyMzgxNDUw.GuGUSH.X0Pgmf4WGKZYfCZAD0POoVger_LXG4h7FWDhdw";
                 String agent =  "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36";
                 String[] langs = new String[]{"人人都搞碳中和！哈哈哈","感觉白这么难拿吗","不知道现在升级还来得及不哦！","哈哈哈","今天你们都要冲到8级嘛","感觉好慌啊","咋办咋办","兄弟们都吃早饭了嘛","我还没吃哦","哈哈哈","有没有比我等级低的","感觉人没得多少应该没有机器人吧","兄弟们这个项目怎么样呢","值得肝起来不","项目投资方牛皮不牛皮","希望这个项目牛逼起来","感觉我才来都被你们卷了","这项目必须火起来啊","哈哈","卷的没办法了","前面是有人说经验获取更少了嘛","你们666","保持活跃吧","两分钟才能发言一次","护肝片吃起来！！","药不能停","真的卷啊","还是蛮看好这个项目的","希望努力有回报","我快要肝不动了兄弟们","我实在是肝不动了","但是看到你们我只有接着肝了", "开始卷了啊", "不要停兄弟们", "卷起来了", "肝硬化了都", "不要停啊继续肝起来", "键盘都敲碎了", "为了白冲啊", "真的肝你们", "护肝片吃起来"};
                 if(index<langs.length||index==langs.length){
@@ -40,14 +40,14 @@ public class BotOne {
         };
         Timer timerOne = new Timer();
         // 从现在开始每间隔 1000 ms 计划执行一个任务（规律性重复执行调度 TimerTask）
-        timerOne.schedule(taskOne, 1 ,130000);
+        timerOne.schedule(taskOne, 1 ,120000);
 
         //id-first
-        TimerTask taskTwo= new TimerTask() {
+        /*TimerTask taskTwo= new TimerTask() {
             @Override
             public void run() {
                 String url = "https://discord.com/api/v9/channels/984296390173786182/messages";
-                String authorization = "OTUxMzQyNTgwNDcyMzgxNDUw.Gdwdo6.p9uFMIeuvtJZ80Dh8CEAbykN5bfbLkPFwlQAj0";
+                String authorization = "OTczNDg1NzIzMDA3MTg5MDQy.G2eznJ.GNuca_LUZ7jNOtTml2bV-knNGkfmA6bGZFjnQE";
                 String agent =  "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36";
                 String[] langs = new String[]{"现在还能得og不哦","我才进来算是早期嘛","不知道现在升级还来得及不哦！","这个阿里的项目咋样啊","人气太火爆了","感觉mod特别有耐心","为我们解答问题","兄弟们你们来的好早啊","我感觉我等级是你们最低的","哈哈哈","有没有比我等级低的","八级得肝到多久哦","是不是还要有邀请","这项目值得肝！","项目方这么牛皮","mint的费用a看到前面有人说0.3e","如果是的话还是有点贵啊","希望到时候上os百倍打底！","你们太卷了","真的是停不下来","管理好几个频道都见过，哈哈哈","6666666","保持活跃吧","两分钟才能发言一次太慢了"};
                 if(index2<langs.length||index2==langs.length){
@@ -59,20 +59,20 @@ public class BotOne {
                     id2 = BotOne.sendMsg(JSON.toJSONString(paramMap),url,agent,authorization);
                     index2++;
                 }
-                /*try {
+                try {
                     Thread.sleep(15000);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
-                BotOne.delete(id2,url,agent,authorization);*/
+                BotOne.delete(id2,url,agent,authorization);
             }
         };
         Timer timerTwo= new Timer();
         // 从现在开始每间隔 1000 ms 计划执行一个任务（规律性重复执行调度 TimerTask）
-        timerTwo.schedule(taskTwo, 1 ,140000);
+        timerTwo.schedule(taskTwo, 1 ,130000);*/
 
         //id-btc
-        TimerTask taskThree= new TimerTask() {
+        /*TimerTask taskThree= new TimerTask() {
             @Override
             public void run() {
                 String url = "https://discord.com/api/v9/channels/984296390173786182/messages";
@@ -92,10 +92,10 @@ public class BotOne {
         };
         Timer timerThree= new Timer();
         // 从现在开始每间隔 1000 ms 计划执行一个任务（规律性重复执行调度 TimerTask）
-        timerThree.schedule(taskThree, 1 ,150000);
+        timerThree.schedule(taskThree, 1 ,150000);*/
 
         //id-chen
-        TimerTask taskf= new TimerTask() {
+        /*TimerTask taskf= new TimerTask() {
             @Override
             public void run() {
                 String url = "https://discord.com/api/v9/channels/984296390173786182/messages";
@@ -115,7 +115,7 @@ public class BotOne {
         };
         Timer timerf= new Timer();
         // 从现在开始每间隔 1000 ms 计划执行一个任务（规律性重复执行调度 TimerTask）
-        timerf.schedule(taskf, 1 ,160000);
+        timerf.schedule(taskf, 1 ,160000);*/
 
     }
 
